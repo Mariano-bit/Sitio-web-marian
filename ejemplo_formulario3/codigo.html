@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2>Ejemplo de CSS en formularios</h2>
+    </header>
+    <section>
+        <article>
+            <table class="tablaGeneral">
+                <td>
+                    <p class="textoCurso"><span class="resaltado">Solicitud de Inscripci&oacute;n</span></p>
+                    <form action="index.php" method="post" name="nomFormulario" id="idFormulario">
+                        <table class="tablaFormulario">
+                            <tr>
+                                <td class="celdaFormulario" id="colIzq">Apellido</td>
+                                <td class="celdaFormulario" id="colDer">
+                                    <input type="text" class="cuadroTexto" name="nomApellido" id="idApellido"
+                                        maxlength="75" required placeholder="Campo Obligatorio">
+                                </td>
+                            </tr>
+                </td>
+                <td class="celdaFormulario">Nombres</td>
+                <td class="celdaFormulario">
+                    <input type="text" class="cuadroTexto" name="nomNombres" id="idNombres" maxlength="75" required
+                        placeholder="Campo Obligatorio">
+                </td>
+                <tr>
+                    <td class="celdaFormulario">N&uacute;mero de documento</td>
+                    <td class="celdaFormulario">
+                        <input type="number" class="cuadroNumber" name="numDocumento" id="idDocumento" maxlength="8"
+                            min="10000000" max="99999999" required placeholder="Campo Obligatorio">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="celdaFormulario">Correo electr&oacute;nico</td>
+                    <td class="celdaFormulario">
+                        <input type="email" class="cuadroTexto" name="nomCorreo" id="idCorreo" maxlength="150" required
+                            placeholder="Campo Obligatorio">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="celdaFormulario">Conferencia a las que asistir&aacute;</td>
+                    <td class="celdaFormulario">
+                        <input type="checkbox" name="C1" id="idC1" value="1">
+                        Conferencia 1 <br>
+                        <input type="checkbox" name="C2" id="idC2" value="1">
+                        Conferencia 2 <br>
+                        <input type="checkbox" name="C2" id="idC2" value="1">
+                        Conferencia 3 <br>
+                        <input type="checkbox" name="C2" id="idC2" value="1">
+                        Conferencia 4 <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="celdaFormulario">Curso que realiza</td>
+                    <td class="celdaFormulario">
+                        <input type="radio" name="nomCurso1" id="idCurso1" value="curso1">
+                        Curso 1 <br>
+                        <input type="radio" name="nomCurso2" id="idCurso2" value="curso2">
+                        Curso 2 <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="celdaFormulario">Observaciones</td>
+                    <td class="celdaFormulario">
+                        <textarea name="numObservaciones" id="idObservaciones" class="cuadroTexto"
+                        cols="35" rows="3"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="40" colspan="2" align="center">
+                        <p>
+                            <input type="submit" class="boton" name="nombreBoton" id="idBoton" value="Enviar">
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            </form>
+            </td>
+            </table>
+        </article>
+    </section>
+    <footer>Archivo: Ejemplo Formularios</footer>
+</body>
+
+</html>

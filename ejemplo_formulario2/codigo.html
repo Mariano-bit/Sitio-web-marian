@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Formulario</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ejemplo de Formulario</h1>
+    </header>
+    <section>
+        <h2>Alta de Usuario</h2>
+        <article>
+            <h3>Complete el siguiente form:</h3>
+            <form action="nombreCodigo.php" id="idFormu" name="formu" method="post">
+                <input type="hidden" id="idRegistrado" name="registrado" value="5">
+                Nombre:
+                <input type="text" name="nombre" id="idNombre" size="20" maxlength="10" autofocus="autofocus"
+                    placeholder="Obligatorio">
+                <br><br>
+                G&eacute;nero:
+                <input type="radio" name="genero" id="idGenero1" value="M">Masculino
+                <input type="radio" name="gdnero" id="idGenero2" value="F">Femenino
+                <br><br>
+                Intereses:
+                <input type="checkbox" name="turismo" id="idTurismo" value="1">Turismo
+                <input type="checkbox" name="computacion" id="idComputacion" value="1">Computacion
+                <input type="checkbox" name="deportes" id="idDeportes" value="1">Deportes
+                <br><br>
+                <input type="submit" name="Enviar" id="idEnviar" value="Enviar">
+                <br><br>
+            </form>
+        </article>
+    </section>
+    <footer>
+        <i>Archivo: codigo.html</i>
+    </footer>
+</body>
+</html>

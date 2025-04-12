@@ -1,0 +1,51 @@
+.cuerpo_resolucion {
+    background-color:rgb(3, 30, 120);
+}
+
+table {
+    border: 3px #000 solid;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+    background-color: rgb(59, 30, 120);
+}
+
+td {
+    border: 2px rgb(0, 0, 0) solid;
+    padding: 5px;
+}
+
+th {
+    text-align: center;
+    color: black;
+}
+
+.ajustar_imagen2 {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #1475a1
+}
+
+h2{
+    text-align: left;
+    color: #1475a1;
+}
+
+p{
+    text-align: left;
+    font-size: 25px;
+}
+
+.ajustar{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 50px;
+    width: 50px;
+}

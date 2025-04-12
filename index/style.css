@@ -1,0 +1,35 @@
+body{
+    background-color: brown;
+}
+.cuerpo_resolucion {
+    background-color: rgb(3, 30, 120);
+}
+
+table {
+    border: 3px #000 solid;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+    background-color: rgb(59, 30, 120)
+}
+
+td {
+    border: 2px rgb(0, 0, 0) solid;
+    padding: 5px;
+}
+
+th {
+    text-align: center;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    color: #1475a1;
+    text-shadow: 5px 5px 5px black;
+}
+
+h2{
+    text-align: center;
+    color: #1475a1;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index/style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejemplo Formularios</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formularios en HTML</h1>
+    </header>
+    <section>
+        <h2>Gesti&oacute;n de Usuarios</h2>
+        <article>
+            <h3>Registro de nuevo usuario</h3>
+            <form id="idFormu" name="formu" method="post" action="codigo_93.php">
+                <fieldset id="campos" name="campos">
+                    <legend>Ingrese los siguientes datos</legend><br>
+                    Usuario:
+                    <input name="nomUsuario" type="text" id="idNomUsuario" size="30" maxlength="15"
+                        autofocus="autofocus" placeholder="M&aacute;ximo 15 letras"><br><br>
+                    Contrase&ntilde;a:
+                    <input name="passUsuario" type="password" id="idPassUsuario" size="30" maxlength="8"
+                    placeholder="M&aacute;ximo 8 caracteresalfanumericos"><br><br>
+                    Fecha de Nacimiento:
+                    <input type="date" id="idNacUsuario" name="nacUsuario" min="1995-01-01" max="2025-09-12"><br><br>
+                    Edad padre:
+                    <input type="number" id="idEdadPadre" name="edadPadreUsuario" min="18" max="99"><br><br>
+                    Edad madre:
+                    <input type="number" id="idEdadMadre" name="edadMadreUsuario" min="18" max="99"><br><br>
+                    Correo electr&oacute;nico:
+                    <input type="mailUsuario" name="email" id="idMailUsuario" size="30" maxlength="25"
+                    placeholder="M&aacute;ximo 25 caracteres"><br><br>
+                    Web personal:
+                    <input type="url" name="webUsuario" id="idWebUsuario" size="30" max="30"
+                    placeholder="M&aacute;ximo 30 caracteres"><br><br>
+                    Intereses:
+                    <textarea name="intUsuario" id="idIntUsuario" placeholder="Ingrese los intereses separados por ':'"
+                    rows="3" cols="40"></textarea><br><br>
+                    <input type="submit" name="Enviar" id="idEnviar" value="Enviar" title="Pulse para enviar">
+                </fieldset>
+            </form>
+        </article>
+    </section>
+    <footer><p><i>Archivo: codigo_93</i></p></footer>
+</body>
+</html>

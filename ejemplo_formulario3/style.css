@@ -1,0 +1,56 @@
+table.tablaGeneral{
+    width: 50%;
+    border: none;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table.tablaFormulario{
+    margin: auto;
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.cuadroTexto{
+    border: 1px solid black;
+    width: 15%;
+}
+
+td.celdaFormulario{
+    height: 50px;
+    border: 2px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: left;
+    padding: 5px;
+    vertical-align:middle;
+}
+#colIzq{
+    width: 20%;
+}
+#colDer{
+    width: 80%;
+}
+.cuadroNumber{
+    border: 1px solid black;
+    width: 15%;
+}
+input.boton{
+    width: 250px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.textoCurso{
+    font-size: 14px;
+    text-align: justify;
+    color: black;
+}

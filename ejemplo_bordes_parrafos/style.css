@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(3, 110, 120);
+}
+h1,h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+#titulo{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 5px 5px 5px gray;
+    letter-spacing: 2px;
+    color: rgb(32, 194, 140);
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.parrafo1{
+    border-color: black;
+    border-style: solid;
+    border-width: medium;
+}
+.parrafo2{
+    border-color: red,yellow;
+    border-style: dotted groove groove ridge;
+    border-width: 2px 0.5em 2px 0.5em;
+}
+.ajustar{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 50px;
+    width: 50px;
+}
